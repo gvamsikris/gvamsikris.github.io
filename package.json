@@ -1,0 +1,23 @@
+{
+  "name": "material-start",
+  "private": true,
+  "version": "0.0.4",
+  "description": "A starter project for AngularJS Material",
+  "repository": "https://github.com/gvamsikris/gvamsikris.github.io",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-aria": "^1.4.9",
+    "angular-material": "^1.0.0",
+    "angular-messages": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "npm update"
+  }
+}
