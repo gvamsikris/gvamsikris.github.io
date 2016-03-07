@@ -9,6 +9,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/angular-material/angular-material.css"/>
 
     <style type="text/css">
@@ -26,10 +27,19 @@
         <md-toolbar layout="row" class="md-whiteframe-z1" md-scroll-shrink>
             <div class="md-toolbar-tools">
               <h3><span>GVAMSIKRIS</span></h3>
+              <span flex></span>
+              <md-button href="tel:+919611644117">
+                <md-icon class="material-icons">phone</md-icon>
+                +91 961 164 4117
+              </md-button>
+              <md-button href="mailto:gvamsikris@gmail.com" style="text-transform:initial;">
+                <md-icon class="material-icons">email</md-icon>
+                gvamsikris@gmail.com
+              </md-button>
             </div>
         </md-toolbar>
         <md-content>
-          
+
         </md-content>
     </div>
 
@@ -42,7 +52,31 @@
     <script src="app/src/profile/Profile.js"></script>
 
     <script type="text/javascript">
-      angular.module('webApp', ['ngMaterial', 'profile']);
+      angular
+        .module('webApp', ['ngMaterial', 'profile'])
+        .config(function($mdThemingProvider){
+          var customPrimary = {
+              '50': '#ffffff',
+              '100': '#ffffff',
+              '200': '#ffffff',
+              '300': '#ffffff',
+              '400': '#ffffff',
+              '500': '#FFFFFF',
+              '600': '#f2f2f2',
+              '700': '#e6e6e6',
+              '800': '#d9d9d9',
+              '900': '#cccccc',
+              'A100': '#ffffff',
+              'A200': '#ffffff',
+              'A400': '#ffffff',
+              'A700': '#bfbfbf'
+          };
+          $mdThemingProvider
+            .definePalette('customPrimary', customPrimary);
+          $mdThemingProvider.theme('default')
+            .primaryPalette('blue')
+        });
+
     </script>
 
   </body>
