@@ -53,7 +53,7 @@
                 </span>
               </div>
               <div>
-                <md-button class="md-raised md-primary">Download CV</md-button>
+                <md-button class="md-raised md-primary" href="/app/assets/Resume.doc">Download CV</md-button>
               </div>
             </div>
             <div id="skills" layout-margin layout-padding class="md-whiteframe-6dp md-body-2 topMargin" layout="column" layout-align="center center" flex layout-fill>
@@ -62,7 +62,7 @@
                 <div>
                   <md-slider-container ng-repeat="skill in pCtrl.profile.skills" layout="row" layout-fill flex>
                     <span layout-margin layout-padding flex="20">{{::skill.label}}</span>
-                    <md-slider flex min="1" max="10" ng-model="skill.level" readonly="readonly"></md-slider>
+                    <md-slider flex min="1" max="10" ng-model="skill.level" ng-readonly="pCtrl.skillReadonly"></md-slider>
                   </md-slider-container>
                 </div>
               </div>
@@ -90,7 +90,7 @@
                   <md-list flex>
                     <md-list-item class="md-3-line" ng-repeat="education in pCtrl.profile.education" flex>
                       <div flex>
-                        <h3>{{::education.role}} @ {{::education.company}}</h3>
+                        <h3>{{::education.degree}} @ {{::education.school}}</h3>
                         <h4>{{::education.start}} - {{::education.end}}</h4>
                       </div>
                       <md-divider ></md-divider>

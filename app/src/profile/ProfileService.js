@@ -58,16 +58,18 @@
 						percentage: '8.43/10' 
 					},
 					{
-						company: 'Schneider Electric',
-						role: 'Senior Software Engineer',
-						start: 'September 2011',
-						end: 'July 2015' 
+						school: 'Nalanda University',
+						degree: 'Secondary School',
+						start: 'July 2002',
+						end: 'May 2004',
+						percentage: '94.8%' 
 					},
 					{
-						company: 'Tata Consultancy Services',
-						role: 'Software Engineer',
-						start: 'August 2008',
-						end: 'September 2011' 
+						school: 'Rotary English Medium School',
+						degree: 'Primary School',
+						start: 'July 1990',
+						end: 'May 2002',
+						percentage: '86.2%' 
 					}
 				]
 			}
