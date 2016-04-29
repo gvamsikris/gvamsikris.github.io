@@ -24,7 +24,7 @@
   </head>
   <body ng-app="webApp" layout="row" ng-controller="ProfileController as pCtrl" ng-cloak>
 
-    <div flex layout="column" tabIndex="-1" role="main" class="md-whiteframe-z2">
+    <div layout="column" tabIndex="-1" role="main" class="md-whiteframe-z2">
         <md-toolbar layout="row" class="md-whiteframe-z2" md-scroll-shrink>
             <div class="md-toolbar-tools">
               <h3><span>GVAMSIKRIS</span></h3>
@@ -116,7 +116,7 @@
     <script type="text/javascript">
       angular
         .module('webApp', ['ngMaterial', 'profile'])
-        .config(function($mdThemingProvider){
+        .config(function($mdThemingProvider) {
           var customPrimary = {
               '50': '#ffffff',
               '100': '#ffffff',

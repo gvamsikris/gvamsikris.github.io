@@ -58,7 +58,7 @@
 						percentage: '8.43/10' 
 					},
 					{
-						school: 'Nalanda University',
+						school: 'Nalanda College',
 						degree: 'Secondary School',
 						start: 'July 2002',
 						end: 'May 2004',
