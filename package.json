@@ -1,8 +1,8 @@
 {
-  "name": "material-start",
+  "name": "gvamsikris profile page",
   "private": true,
-  "version": "0.0.4",
-  "description": "A starter project for AngularJS Material",
+  "version": "0.0.5",
+  "description": "G Vamsi Krishna Profile page",
   "repository": "https://github.com/gvamsikris/gvamsikris.github.io",
   "licenses": [
     {
@@ -10,11 +10,11 @@
     }
   ],
   "dependencies": {
-    "angular": "^1.4.9",
-    "angular-animate": "^1.4.9",
-    "angular-aria": "^1.4.9",
-    "angular-material": "^1.0.0",
-    "angular-messages": "^1.5.0"
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.3",
+    "angular-messages": "^1.6.4"
   },
   "devDependencies": {},
   "scripts": {
