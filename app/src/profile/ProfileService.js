@@ -9,7 +9,7 @@
 			return {
 				summary: {
 					name: 'Vamsi Krishna Gajula',
-					designation: 'Senior Applications Engineer @ Oracle'
+					designation: 'Project Lead @ JDA'
 				},
 				skills: [
 					{
@@ -31,10 +31,16 @@
 				],
 				work: [
 					{
+						company: 'JDA',
+						role: 'Project Lead',
+						start: 'June 2016',
+						end: 'Present' 	
+					},
+					{
 						company: 'Oracle',
 						role: 'Senior Applications Engineer',
 						start: 'July 2015',
-						end: 'Present' 
+						end: 'June 2016' 
 					},
 					{
 						company: 'Schneider Electric',

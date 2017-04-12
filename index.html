@@ -40,11 +40,11 @@
             </div>
         </md-toolbar>
         <md-content flex layout="row" layout-margin layout-padding layout-align="center start">
-          <div id="main" flex="75" flex-md="80" flex-xs="95" layout="column" layout-align="center space-around">
+          <div id="main" flex layout="column" layout-align="center start">
             <div id="summary" layout-margin layout-padding class="md-whiteframe-6dp md-body-2 topMargin" layout="column" layout-align="center center" flex layout-fill>
               <div layout-margin layout-padding layout-align="center center" layout="column">
-                <span class="md-display-1">Vamsi Krishna Gajula</span>
-                <span class="md-subheader">Senior Application Engineer @ Oracle</span>
+                <span class="md-display-1">{{::pCtrl.profile.summary.name}}</span>
+                <span class="md-subheader">{{::pCtrl.profile.summary.designation}}</span>
               </div>
               <div layout-margin layout-padding layout-align="start center">
                 <span>Passionate, keen to learn and explore new technologies and a honest individual. Ability to learn new concepts and adapt in short span of time. <br /></span>
